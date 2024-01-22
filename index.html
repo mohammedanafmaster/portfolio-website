@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Meta data about the website -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content=""> <!-- Add a detailed four-to-five sentence long description about the website -->
+    <meta name="keywords" content=""> <!-- Add keywords that are relevant to the website -->
+    <meta name="author" content=""> <!-- Add the name of the author of the website -->
+    <meta name="robots" content="index, follow"> <!-- Add the robots meta tag -->
+    <meta name="theme-color" content="#FB1E4E"> <!-- Add the theme color of the website to match with the browser's address bar -->
+
+    <!-- Title of the website -->
+    <title>Home | Portfolio</title> <!-- Add a four-to-five words long title of the website -->
+
+    <!-- Link to the google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Link to the main stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <!-- Link to the favicon -->
+    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/android-chrome-512x512.png" />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+</head>
+<body>
+
+    <!-- Header of the website -->
+    <header>
+        <nav>
+            <img src="./assets/images/logo.svg" width="150" alt="Logo of the website">
+            <ul>
+                <li><a href="#landing-section">Home</a></li>
+                <li><a href="#about-section">About</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#portfolio-section">Portfolio</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+                <i class="fa-solid fa-x"></i>
+            </ul>
+            <i class="fa-solid fa-bars"></i>
+        </nav>        
+    </header>
+
+    <!-- Main content of the website -->
+    <main>
+        <section id="landing-section">
+            <p>Frontend Developer</p>
+            <h1>Hi, I'm <span>Mohammed Anaf</span> from India</h1>
+        </section>
+
+        <section id="about-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="" alt="Image to be uploaded">
+                    </div>
+                    <div class="col-2">
+                        <h2>About Me</h2>
+                        <p>Hello! I'm Mohammed Anaf, a dedicated frontend developer currently pursuing Bachelor of Technology in Computer Science & Engineering at Silver Oak University. With a passion for creating seamless and engaging user experiences, I specialize in crafting intuitive interfaces that blend functionality with aesthetics. My journey in the world of technology has been fueled by a curiosity to explore the ever-evolving landscape of web development. Throughout my academic journey, I've honed my skills in HTML, CSS, and JavaScript, translating ideas into visually appealing and responsive designs. Eager to contribute my skills and creativity to innovative projects, I thrive on the intersection of coding and creativity in the digital realm.</p>
+
+                        <div class="tab-container">
+                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend Layout</span><br>Building Webite Structure</li>
+                                <li><span>Responsive Design</span><br>Providing Mobile-Friendly Approach</li>
+                                <li><span>Progressive Web Application</span><br>Enabling Android/iOS Functionality</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Oct 2021 - Current</span><br>B.Tech in Computer Science, Silver Oak University</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Jan 2024 - Current</span><br>Frontend Developer at Innovius Software</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services-section">
+            <div class="container">
+                <h2>My Services</h2>
+
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Frontend Layout</h3>
+                        <p>I use modern technologies like HTML5, CSS3, and JavaScript to build interfaces that are not only beautiful but also functional and user-friendly.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h3>Responsive Design</h3>
+                        <p> Using the latest techniques in CSS3 and JavaScript, I build layouts that adapt and respond to different screen sizes, providing an optimal viewing and interaction experience for all users.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h3>PWA</h3>
+                        <p> Offering an app-like user experience, PWAs are built with modern web capabilities, are reliable even in uncertain network conditions, and can be installed on the user's device, providing an engaging user experience.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio-section">
+            <div class="container">
+                <h2>My Work</h2>
+
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./assets/images/detoxdynasty.png" alt="DetoxDynasty Coming Soon Website">
+
+                        <div class="layer">
+                            <h3>DetoxDynasty</h3>
+                            <p>It emphasizes on helping people, around the world, quit any of their bad or harmful addictions.</p>
+                            <a href="https://detoxdynasty.live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./assets/images/detoxdynasty.png" alt="Image to be uploaded">
+
+                        <div class="layer">
+                            <h3>DetoxDynasty</h3>
+                            <p>It emphasizes on helping people, around the world, quit any of their bad or harmful addictions.</p>
+                            <a href="https://detoxdynasty.live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./assets/images/detoxdynasty.png" alt="Image to be uploaded">
+
+                        <div class="layer">
+                            <h3>DetoxDynasty</h3>
+                            <p>It emphasizes on helping people, around the world, quit any of their bad or harmful addictions.</p>
+                            <a href="https://detoxdynasty.live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">See More</a>
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <h2>Contact Me</h2>
+                        <p><a href="mailto:mohammedanafm@gmail.com"><i class="fa-solid fa-envelope"></i> mohammedanafm@gmail.com</a></p>
+                        <p><a href="tel:+6354304482"><i class="fa-solid fa-phone"></i> +91 6354304482</a></p>
+
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/mohammed-anaf-master/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://discordapp.com/users/1191420488254238751"><i class="fa-brands fa-discord"></i></a>
+                            <a href="https://github.com/mohammedanafmaster"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                        <a href="#" download class="btn download-btn">Download CV</a>
+                    </div>
+
+                    <div class="col-2">
+                        <form netlify>
+                            <input type="text" name="Name" placeholder="Enter your name" required>
+                            <input type="email" name="Email" placeholder="Enter your email" required>
+                            <textarea name="Message" placeholder="Enter your message" rows="6" required></textarea>
+                            <button type="submit" class="btn submit-button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer of the website -->
+    <footer>
+        <p>Copyright &copy; 2024. Made with <i class="fa-solid fa-heart"></i> by Mohammed Anaf</p>
+    </footer>
+
+    <!-- Link to the main javascript file -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- Link to the Font Awesome CDN -->
+    <script src="https://kit.fontawesome.com/43af46c238.js" crossorigin="anonymous"></script>
+
+    <!-- Link to the service worker javascript -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('./assets/js/service-worker.js')
+                .then((registration) => {
+                    console.log('Service worker registered with scope', registration.scope);
+                })
+                .catch((error) => {
+                    console.log('Service worker registration failed', error);
+                });
+        }
+    </script>
+</body>
+</html>
