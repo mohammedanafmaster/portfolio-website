@@ -1,10 +1,10 @@
 {
-    "name": "PWA Name",
-    "short_name": "PWA Short Name",
-    "description": "Description of PWA",
+    "name": "Mohammed Anaf's Portfolio",
+    "short_name": "Portfolio",
+    "description": "Mohammed Anaf is a Tech Enthusiast pursuing Bachelor of Technology in Computer Science and experienced in frontend domain having a skillset of latest technologies such as HTML5, CSS3, Responsive Design, Progressive Web Application, Figma, Bootstrap, and JavaScript.",
     "start_url": "/",
     "display": "standalone",
-    "theme_color": "#FB1E4E",
+    "theme_color": "#ca0bf5",
     "background_color": "#080808",
     "icons": [
         {

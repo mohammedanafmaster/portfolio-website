@@ -1,219 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-    <!-- Meta data about the website -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content=""> <!-- Add a detailed four-to-five sentence long description about the website -->
-    <meta name="keywords" content=""> <!-- Add keywords that are relevant to the website -->
-    <meta name="author" content=""> <!-- Add the name of the author of the website -->
-    <meta name="robots" content="index, follow"> <!-- Add the robots meta tag -->
-    <meta name="theme-color" content="#FB1E4E"> <!-- Add the theme color of the website to match with the browser's address bar -->
+  <!-- Meta data about the website -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Mohammed Anaf is a Tech Enthusiast pursuing Bachelor of Technology in Computer Science and experienced in frontend domain having a skillset of latest technologies such as HTML5, CSS3, Responsive Design, Progressive Web Application, Figma, Bootstrap, and JavaScript."> <!-- Add a detailed four-to-five sentence long description about the website -->
+  <meta name="keywords" content="portfolio website, responsive design, frontend, progressive web application, web development"> <!-- Add keywords that are relevant to the website -->
+  <meta name="author" content="Mohammed Anaf Master"> <!-- Add the name of the author of the website -->
+  <meta name="robots" content="index, follow"> <!-- Add the robots meta tag -->
+  <meta name="theme-color" content="#ca0bf5"> <!-- Add the theme color of the website to match with the browser's address bar -->
 
-    <!-- Title of the website -->
-    <title>Home | Portfolio</title> <!-- Add a four-to-five words long title of the website -->
+  <!-- Title of the website -->
+  <title>Portfolio Website</title> <!-- Add a four-to-five words long title of the website -->
 
-    <!-- Link to the google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Link to the main stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 
-    <!-- Link to the main stylesheet -->
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/responsive.css">
-
-    <!-- Link to the favicon -->
-    <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-chrome-192x192.png" />
-    <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/android-chrome-512x512.png" />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+  <!-- Link to the favicon -->
+  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/android-chrome-512x512.png" />
+  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
 </head>
+
 <body>
+  <!-- Navigation bar -->
+  <header>
+    <a href="https://mohammedanaf.me" class="logo">Mohammed <span>Anaf</span></a>
 
-    <!-- Header of the website -->
-    <header>
-        <nav>
-            <img src="./assets/images/logo.svg" width="150" alt="Logo of the website">
-            <ul>
-                <li><a href="#landing-section">Home</a></li>
-                <li><a href="#about-section">About</a></li>
-                <li><a href="#services-section">Services</a></li>
-                <li><a href="#portfolio-section">Portfolio</a></li>
-                <li><a href="#contact-section">Contact</a></li>
-                <i class="fa-solid fa-x"></i>
-            </ul>
-            <i class="fa-solid fa-bars"></i>
-        </nav>        
-    </header>
+    <!-- <i class='bx bx-menu'></i> -->
 
-    <!-- Main content of the website -->
-    <main>
-        <section id="landing-section">
-            <p>Frontend Developer</p>
-            <h1>Hi, I'm <span>Mohammed Anaf</span> from India</h1>
-        </section>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-        <section id="about-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-1">
-                        <img src="" alt="Image to be uploaded">
-                    </div>
-                    <div class="col-2">
-                        <h2>About Me</h2>
-                        <p>Hello! I'm Mohammed Anaf, a dedicated frontend developer currently pursuing Bachelor of Technology in Computer Science & Engineering at Silver Oak University. With a passion for creating seamless and engaging user experiences, I specialize in crafting intuitive interfaces that blend functionality with aesthetics. My journey in the world of technology has been fueled by a curiosity to explore the ever-evolving landscape of web development. Throughout my academic journey, I've honed my skills in HTML, CSS, and JavaScript, translating ideas into visually appealing and responsive designs. Eager to contribute my skills and creativity to innovative projects, I thrive on the intersection of coding and creativity in the digital realm.</p>
+  <!-- Home section -->
+  <main>
+    <section id="home">
+      <figure class="home-img">
+        <img src="./assets/images/profile.png" alt="Profile Picture">
+      </figure>
 
-                        <div class="tab-container">
-                            <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
-                            <p class="tab-links" onclick="openTab('education')">Education</p>
-                            <p class="tab-links" onclick="openTab('experience')">Experience</p>
-                        </div>
+      <div class="home-content">
+        <h1>Hi, It's <span>Mohammed Anaf</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p><p>I am a passionate and dedicated software developer with a knack for problem-solving and love for technology. With a strong foundation in various programming languages and frameworks, I strive to create efficient and user-friendly solutions. I believe in continuous learning and improvement, and always eager to explore new technologies & methodologies in the software industry. Connect with me on LinkedIn, GitHub, Discord, or StackOverflow, or click 'Hire Me' to discuss how I can contribute to your projects.</p></p>
 
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>Frontend Layout</span><br>Building Webite Structure</li>
-                                <li><span>Responsive Design</span><br>Providing Mobile-Friendly Approach</li>
-                                <li><span>Progressive Web Application</span><br>Enabling Android/iOS Functionality</li>
-                            </ul>
-                        </div>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/mohammed-anaf-master/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/mohammedanafmaster" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://discordapp.com/users/1191420488254238751" target="_blank"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://stackoverflow.com/users/23359773/mohammed-anaf" target="_blank"><i
+              class="fa-brands fa-stack-overflow"></i></a>
+        </div>
 
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>Oct 2021 - Current</span><br>B.Tech in Computer Science, Silver Oak University</li>
-                            </ul>
-                        </div>
+        <a href="https://www.fiverr.com/pe/LgRlwo" target="_blank" class="btn">Hire Me</a>
+      </div>
+    </section>
 
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>Jan 2024 - Current</span><br>Frontend Developer at Innovius Software</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- About section -->
+    <section id="about">
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3 class="text-animation"><span></span></h3>
+        <p><p>My name is Mohammed Anaf, and I've been a professional software developer from a few months. I specialize in creating dynamic and beautiful web applications. I have a keen eye for detail and a passion for coding, which allows me to create software that is not only functional but also aesthetically pleasing. I am always eager to learn more and improve my skills. In my spare time, I enjoy contributing to open-source projects and exploring the latest technologies in the field.</p></p>
+        <a href="https://www.linkedin.com/in/mohammed-anaf-master/" target="_blank" class="btn">Read More</a>
+      </div>
 
-        <section id="services-section">
-            <div class="container">
-                <h2>My Services</h2>
+      <figure class="about-img">
+        <img src="./assets/images/profile.png" alt="Profile Image">
+      </figure>
+    </section>
 
-                <div class="services-list">
-                    <div>
-                        <i class="fa-solid fa-code"></i>
-                        <h3>Frontend Layout</h3>
-                        <p>I use modern technologies like HTML5, CSS3, and JavaScript to build interfaces that are not only beautiful but also functional and user-friendly.</p>
-                        <a href="#">Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-crop"></i>
-                        <h3>Responsive Design</h3>
-                        <p> Using the latest techniques in CSS3 and JavaScript, I build layouts that adapt and respond to different screen sizes, providing an optimal viewing and interaction experience for all users.</p>
-                        <a href="#">Learn More</a>
-                    </div>
-                    <div>
-                        <i class="fa-brands fa-app-store"></i>
-                        <h3>PWA</h3>
-                        <p> Offering an app-like user experience, PWAs are built with modern web capabilities, are reliable even in uncertain network conditions, and can be installed on the user's device, providing an engaging user experience.</p>
-                        <a href="#">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Services section -->
+    <section id="services">
+      <h2 class="heading">Services</h2>
 
-        <section id="portfolio-section">
-            <div class="container">
-                <h2>My Work</h2>
+      <div class="services-container">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Website Development</h4>
+            <p>As a dedicated web developer, I bring a unique blend of creativity and technical acumen to website development. My expertise lies in crafting bespoke, interactive, and responsive websites that are not just visually appealing but also robust in performance. I leverage the latest web technologies to build everything from simple single-page applications to complex web-based internet applications. My commitment to quality and detail ensures that every project meets the highest standards.</p>
+          </div>
+        </div>
 
-                <div class="work-list">
-                    <div class="work">
-                        <img src="./assets/images/detoxdynasty.png" alt="DetoxDynasty Coming Soon Website">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Frontend Designer</h4>
+            <p>As a proficient frontend developer, I create intuitive and engaging digital interfaces with a focus on user experience. I utilize modern frontend technologies like HTML5, CSS3, Bootstrap, and JavaScript to build responsive and dynamic user interfaces. My approach combines design sensibility with technical expertise, ensuring that the websites I develop are visually compelling and functionally robust. I strive to create seamless user experiences that drive user engagement and business growth.</p>
+          </div>
+        </div>
 
-                        <div class="layer">
-                            <h3>DetoxDynasty</h3>
-                            <p>It emphasizes on helping people, around the world, quit any of their bad or harmful addictions.</p>
-                            <a href="https://detoxdynasty.live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="./assets/images/detoxdynasty.png" alt="Image to be uploaded">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>JavaScript Programmer</h4>
+            <p>As a skilled JavaScript developer, I specialize in building dynamic and interactive web applications. I have a deep understanding of JavaScript concepts such as Synchronous JS and DOM Manipulation, which I use to create scalable and maintainable applications. My expertise also extends to Asynchronous JS for enhanced experience, enabling me to build full-stack JavaScript applications. I am committed to writing clean, efficient, and maintainable code that adheres to best practices and industry standards.</p>
+          </div>
+        </div>
 
-                        <div class="layer">
-                            <h3>DetoxDynasty</h3>
-                            <p>It emphasizes on helping people, around the world, quit any of their bad or harmful addictions.</p>
-                            <a href="https://detoxdynasty.live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                    <div class="work">
-                        <img src="./assets/images/detoxdynasty.png" alt="Image to be uploaded">
+        <div class="service-box">
+          <div class="service-info">
+            <h4>Responsive Coder</h4>
+            <p>As a professional Responsive Coder, I specialize in creating websites and applications that provide an optimal viewing and interaction experience. I leverage my deep understanding of HTML5, CSS3, and JavaScript to build web pages that look and function well on a variety of devices and window or screen sizes. My commitment to responsive design principles ensures that the applications I develop are accessible, user-friendly, and adaptable to any device, from desktops to mobile phones.</p>
+        </div>
+      </div>
+    </section>
 
-                        <div class="layer">
-                            <h3>DetoxDynasty</h3>
-                            <p>It emphasizes on helping people, around the world, quit any of their bad or harmful addictions.</p>
-                            <a href="https://detoxdynasty.live"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        </div>
-                    </div>
-                </div>
+    <section id="projects">
+      <div class="projects-box">
+        <h2 class="heading">Projects</h2>
 
-                <a href="#" class="btn">See More</a>
-            </div>
-        </section>
+        <div class="wrapper">
+          <div class="project-item">
+            <img src="./assets/images/detox-dynasty.png" alt="DetoxDynasty Landing Page">
+            <h2>DetoxDynasty Landing Page</h2>
+            <p>Health-EdTech website that emphasizes on helping people, around the world, quit any of their bad or harmful addictions. It's ulterior motive is to guide its users with relevant information on specific topics and make them feel free & healthy in a natural & habitual manner.</p>
+          </div>
 
-        <section id="contact-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-1">
-                        <h2>Contact Me</h2>
-                        <p><a href="mailto:mohammedanafm@gmail.com"><i class="fa-solid fa-envelope"></i> mohammedanafm@gmail.com</a></p>
-                        <p><a href="tel:+6354304482"><i class="fa-solid fa-phone"></i> +91 6354304482</a></p>
+          <div class="project-item">
+            <img src="./assets/images/symptocare.png" alt="SymptoCare">
+            <h2>SymptoCare</h2>
+            <p>HealthTech website that enriches its user's health and lifestyle by guiding them with medical precautions, enhances them with health-related information as well as provides a 1-on-1 consultation with expert professionals.</p>
+          </div>
 
-                        <div class="social-icons">
-                            <a href="https://www.linkedin.com/in/mohammed-anaf-master/"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://discordapp.com/users/1191420488254238751"><i class="fa-brands fa-discord"></i></a>
-                            <a href="https://github.com/mohammedanafmaster"><i class="fa-brands fa-github"></i></a>
-                        </div>
-                        <a href="#" download class="btn download-btn">Download CV</a>
-                    </div>
+          <div class="project-item">
+            <img src="./assets/images/coming-soon.png" alt="Coming Soon">
+            <h2>Coming Soon...</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex expedita beatae hic nam sed minima dolores
+              nemo vero impedit libero vel maiores, voluptatibus quae magni.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                    <div class="col-2">
-                        <form netlify>
-                            <input type="text" name="Name" placeholder="Enter your name" required>
-                            <input type="email" name="Email" placeholder="Enter your email" required>
-                            <textarea name="Message" placeholder="Enter your message" rows="6" required></textarea>
-                            <button type="submit" class="btn submit-button">Submit</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+    <!-- Contact section -->
+    <section id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
 
-    <!-- Footer of the website -->
-    <footer>
-        <p>Copyright &copy; 2024. Made with <i class="fa-solid fa-heart"></i> by Mohammed Anaf</p>
-    </footer>
+      <form action="#" netlify>
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Enter your name" title="John Doe" pattern="^[A-Za-z ]+$" required>
+          <input type="email" name="email" placeholder="Enter your mail" title="johndoe123@dummy.xyz" pattern="[a-z0-9]+@[a-z]+\.+[a-z]+$" required>
+        </div>
 
-    <!-- Link to the main javascript file -->
-    <script src="./assets/js/script.js"></script>
+        <div class="input-box">
+          <input type="number" name="phone" title="012 789 3456" placeholder="Enter your phone number">
+          <input type="text" name="subject" placeholder="Enter your subject">
+        </div>
 
-    <!-- Link to the Font Awesome CDN -->
-    <script src="https://kit.fontawesome.com/43af46c238.js" crossorigin="anonymous"></script>
+        <textarea name="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
+        <input type="submit" class="btn" value="Send Message">
+      </form>
+    </section>
+  </main>
 
-    <!-- Link to the service worker javascript -->
-    <script>
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./assets/js/service-worker.js')
-                .then((registration) => {
-                    console.log('Service worker registered with scope', registration.scope);
-                })
-                .catch((error) => {
-                    console.log('Service worker registration failed', error);
-                });
-        }
-    </script>
+  <!-- Footer -->
+  <footer>
+    <div class="social">
+      <a href="https://www.linkedin.com/in/mohammed-anaf-master/"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://github.com/mohammedanafmaster"><i class="fa-brands fa-github"></i></a>
+      <a href="https://discordapp.com/users/1191420488254238751"><i class="fa-brands fa-discord"></i></a>
+      <a href="https://stackoverflow.com/users/23359773/mohammed-anaf"><i class="fa-brands fa-stack-overflow"></i></a>
+    </div>
+
+    <ul class="list">
+      <li>
+        <a href="#home">Home</a>
+      </li>
+      <li>
+        <a href="#about">About Me</a>
+      </li>
+      <li>
+        <a href="#services">My Services</a>
+      </li>
+      <li>
+        <a href="#projects">My Projects</a>
+      </li>
+      <li>
+        <a href="#contact">Contact Me</a>
+      </li>
+    </ul>
+
+    <p class="copyright">&copy; Mohammed Anaf | All Rights Reserved.</p>
+  </footer>
+
+  <!-- Link to Font Awesome -->
+  <script src="https://kit.fontawesome.com/43af46c238.js" crossorigin="anonymous"></script>
+
+  <!-- Link to Box Icons -->
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+  <!-- Link to the main javascript file -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- Link to the service worker javascript -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./assets/js/service-worker.js')
+        .then((registration) => {
+          console.log('Service worker registered with scope', registration.scope);
+        })
+        .catch((error) => {
+          console.log('Service worker registration failed', error);
+        });
+    }
+  </script>
 </body>
+
 </html>
