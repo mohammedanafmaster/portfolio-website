@@ -1,223 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-
   <!-- Meta data about the website -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="title" content="Mohammed Anaf | Portfolio">
-  <meta name="description" content="Mohammed Anaf is a Tech Enthusiast pursuing Bachelor of Technology in Computer Science and experienced in frontend domain having a skillset of latest technologies such as HTML5, CSS3, Responsive Design, Progressive Web Application, Figma, Bootstrap, and JavaScript."> <!-- Add a detailed four-to-five sentence long description about the website -->
-  <meta name="keywords" content="portfolio website, responsive design, frontend, progressive web application, web development"> <!-- Add keywords that are relevant to the website -->
+  <meta name="description" content="Mohammed Anaf Master is currently pursuing a Bachelor of Technology in Computer Science. He possesses extensive expertise in the frontend development domain, encompassing technologies and skills such as HTML5, CSS3, Bootstrap, Responsive Web Design, JavaScript, jQuery, Figma, Version Control, On-Page SEO, Progressive Web Applications, React.js, and Tailwind CSS."> <!-- Add a detailed four-to-five sentence long description about the website -->
+  <meta name="keywords" content="portfolio website, responsive design, progressive web app, mohammed anaf master"> <!-- Add keywords that are relevant to the website -->
   <meta name="author" content="Mohammed Anaf Master"> <!-- Add the name of the author of the website -->
   <meta name="robots" content="index, follow"> <!-- Add the robots meta tag -->
-  <meta name="theme-color" content="#ca0bf5"> <!-- Add the theme color of the website to match with the browser's address bar -->
+  <meta name="theme-color" content="#fff"> <!-- Add the theme color of the website to match with the browser's address bar -->
 
   <!-- Title of the website -->
-  <title>Mohammed Anaf | Portfolio</title> <!-- Add a four-to-five words long title of the website -->
+  <title>Mohammed Anaf - Frontend Website Developer</title> <!-- Add a four-to-five words long title of the website -->
+
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/unicons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
 
   <!-- Link to the main stylesheet -->
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/responsive.css">
 
   <!-- Link to the favicon -->
-  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-chrome-192x192.png" />
-  <link rel="icon" type="image/png" sizes="512x512" href="./assets/favicon/android-chrome-512x512.png" />
-  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+  <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicon/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="./assets/images/favicon/android-chrome-512x512.png" />
+  <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
 </head>
 
 <body>
-  <!-- Navigation bar -->
-  <header>
-    <a href="https://mohammedanaf.me" class="logo">Mohammed <span>Anaf</span></a>
 
-    <!-- <i class='bx bx-menu'></i> -->
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-sm navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><i class='uil uil-user'></i>Mohammed Anaf</a>
 
-    <nav class="navbar">
-      <a href="#home" class="active">Home</a>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <!-- Home section -->
-  <main>
-    <section id="home">
-      <figure class="home-img">
-        <img src="./assets/images/profile.png" alt="Profile Picture">
-      </figure>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+          </li>
+        </ul>
 
-      <div class="home-content">
-        <h1>Hi, It's <span>Mohammed Anaf</span></h1>
-        <h3 class="text-animation">I'm a <span></span></h3>
-        <p><p>I am a passionate and dedicated software developer with a knack for problem-solving and love for technology. With a strong foundation in various programming languages and frameworks, I strive to create efficient and user-friendly solutions. I believe in continuous learning and improvement, and always eager to explore new technologies & methodologies in the software industry. Connect with me on LinkedIn, GitHub, Discord, or StackOverflow, or click 'Hire Me' to discuss how I can contribute to your projects.</p></p>
-
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/mohammed-anaf-master/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://github.com/mohammedanafmaster" target="_blank"><i class="fa-brands fa-github"></i></a>
-          <a href="https://discordapp.com/users/1191420488254238751" target="_blank"><i class="fa-brands fa-discord"></i></a>
-          <a href="https://stackoverflow.com/users/23359773/mohammed-anaf" target="_blank"><i
-              class="fa-brands fa-stack-overflow"></i></a>
-        </div>
-
-        <a href="https://www.fiverr.com/pe/LgRlwo" target="_blank" class="btn">Hire Me</a>
+        <ul class="navbar-nav ml-lg-auto">
+          <div class="ml-lg-4">
+            <div class="color-mode d-lg-flex justify-content-center align-items-center">
+              <i class="color-mode-icon"></i>
+              Color mode
+            </div>
+          </div>
+        </ul>
       </div>
-    </section>
-
-    <!-- About section -->
-    <section id="about">
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3 class="text-animation"><span></span></h3>
-        <p><p>My name is Mohammed Anaf, and I've been a professional software developer from a few months. I specialize in creating dynamic and beautiful web applications. I have a keen eye for detail and a passion for coding, which allows me to create software that is not only functional but also aesthetically pleasing. I am always eager to learn more and improve my skills. In my spare time, I enjoy contributing to open-source projects and exploring the latest technologies in the field.</p></p>
-        <a href="https://www.linkedin.com/in/mohammed-anaf-master/" target="_blank" class="btn">Read More</a>
-      </div>
-
-      <figure class="about-img">
-        <img src="./assets/images/profile.png" alt="Profile Image">
-      </figure>
-    </section>
-
-    <!-- Services section -->
-    <section id="services">
-      <h2 class="heading">Services</h2>
-
-      <div class="services-container">
-        <div class="service-box">
-          <div class="service-info">
-            <h4>Website Development</h4>
-            <p>As a dedicated web developer, I bring a unique blend of creativity and technical acumen to website development. My expertise lies in crafting bespoke, interactive, and responsive websites that are not just visually appealing but also robust in performance. I leverage the latest web technologies to build everything from simple single-page applications to complex web-based internet applications. My commitment to quality and detail ensures that every project meets the highest standards.</p>
-          </div>
-        </div>
-
-        <div class="service-box">
-          <div class="service-info">
-            <h4>Frontend Designer</h4>
-            <p>As a proficient frontend developer, I create intuitive and engaging digital interfaces with a focus on user experience. I utilize modern frontend technologies like HTML5, CSS3, Bootstrap, and JavaScript to build responsive and dynamic user interfaces. My approach combines design sensibility with technical expertise, ensuring that the websites I develop are visually compelling and functionally robust. I strive to create seamless user experiences that drive user engagement and business growth.</p>
-          </div>
-        </div>
-
-        <div class="service-box">
-          <div class="service-info">
-            <h4>JavaScript Programmer</h4>
-            <p>As a skilled JavaScript developer, I specialize in building dynamic and interactive web applications. I have a deep understanding of JavaScript concepts such as Synchronous JS and DOM Manipulation, which I use to create scalable and maintainable applications. My expertise also extends to Asynchronous JS for enhanced experience, enabling me to build full-stack JavaScript applications. I am committed to writing clean, efficient, and maintainable code that adheres to best practices and industry standards.</p>
-          </div>
-        </div>
-
-        <div class="service-box">
-          <div class="service-info">
-            <h4>Responsive Coder</h4>
-            <p>As a professional Responsive Coder, I specialize in creating websites and applications that provide an optimal viewing and interaction experience. I leverage my deep understanding of HTML5, CSS3, and JavaScript to build web pages that look and function well on a variety of devices and window or screen sizes. My commitment to responsive design principles ensures that the applications I develop are accessible, user-friendly, and adaptable to any device, from desktops to mobile phones.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="projects-box">
-        <h2 class="heading">Projects</h2>
-
-        <div class="wrapper">
-          <div class="project-item">
-            <img src="./assets/images/detox-dynasty.png" alt="DetoxDynasty Landing Page">
-            <h2>DetoxDynasty Landing Page</h2>
-            <p>Health-EdTech website that emphasizes on helping people, around the world, quit any of their bad or harmful addictions. It's ulterior motive is to guide its users with relevant information on specific topics and make them feel free & healthy in a natural & habitual manner.</p>
-          </div>
-
-          <div class="project-item">
-            <img src="./assets/images/symptocare.png" alt="SymptoCare">
-            <h2>SymptoCare</h2>
-            <p>HealthTech website that enriches its user's health and lifestyle by guiding them with medical precautions, enhances them with health-related information as well as provides a 1-on-1 consultation with expert professionals.</p>
-          </div>
-
-          <div class="project-item">
-            <img src="./assets/images/coming-soon.png" alt="Coming Soon">
-            <h2>Coming Soon...</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex expedita beatae hic nam sed minima dolores
-              nemo vero impedit libero vel maiores, voluptatibus quae magni.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact section -->
-    <section id="contact">
-      <h2 class="heading">Contact <span>Me</span></h2>
-
-      <form method="post" netlify>
-        <div class="input-box">
-          <input type="text" name="name" placeholder="Enter your name" title="John Doe" pattern="^[A-Za-z ]+$" required>
-          <input type="email" name="email" placeholder="Enter your mail" title="johndoe123@dummy.xyz" pattern="[a-z0-9]+@[a-z]+\.+[a-z]+$" required>
-        </div>
-
-        <div class="input-box">
-          <input type="number" name="phone" title="012 789 3456" placeholder="Enter your phone number">
-          <input type="text" name="subject" placeholder="Enter your subject">
-        </div>
-
-        <textarea name="message" cols="30" rows="10" placeholder="Enter your message" required></textarea>
-        <input type="submit" class="btn" value="Send Message">
-      </form>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer>
-    <div class="social">
-      <a href="https://www.linkedin.com/in/mohammed-anaf-master/"><i class="fa-brands fa-linkedin-in"></i></a>
-      <a href="https://github.com/mohammedanafmaster"><i class="fa-brands fa-github"></i></a>
-      <a href="https://discordapp.com/users/1191420488254238751"><i class="fa-brands fa-discord"></i></a>
-      <a href="https://stackoverflow.com/users/23359773/mohammed-anaf"><i class="fa-brands fa-stack-overflow"></i></a>
     </div>
+  </nav>
 
-    <ul class="list">
-      <li>
-        <a href="#home">Home</a>
-      </li>
-      <li>
-        <a href="#about">About Me</a>
-      </li>
-      <li>
-        <a href="#services">My Services</a>
-      </li>
-      <li>
-        <a href="#projects">My Projects</a>
-      </li>
-      <li>
-        <a href="#contact">Contact Me</a>
-      </li>
-    </ul>
+  <!-- About Section -->
+  <section class="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+    <div class="container">
+      <div class="row">
 
-    <p class="copyright">&copy; Mohammed Anaf | All Rights Reserved.</p>
+        <div class="col-lg-7 col-md-12 col-12 d-flex align-items-center">
+          <div class="about-text">
+            <small class="small-text">Welcome to <span class="mobile-block">my portfolio website!</span></small>
+            <h1 class="animated animated-text">
+              <span class="mr-2">Hey folks, I'm</span>
+              <div class="animated-info">
+                <span class="animated-item">Mohammed Anaf</span>
+                <span class="animated-item">Web Developer</span>
+                <span class="animated-item">React Developer</span>
+              </div>
+            </h1>
+
+            <p>Creating dynamic web experiences is my passion. I specialize in responsive web design, frontend development, and crafting interactive user interfaces.</p>
+
+            <div class="custom-btn-group mt-4">
+              <a href="https://mohammedanaf.me/resume.pdf" class="btn mr-lg-2 custom-btn" download><i class='uil uil-file-alt'></i>Download Resume</a>
+              <a href="#contact" class="btn custom-btn custom-btn-bg custom-btn-link">Get a free quote</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-12 col-12">
+          <div class="about-image svg">
+            <img src="./assets/images/home.svg" class="img-fluid" alt="Person coding at night">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section class="project py-5" id="project">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-11 text-center mx-auto col-12">
+
+          <div class="col-lg-8 mx-auto">
+            <h2>Projects I have developed for agencies and startups</h2>
+          </div>
+
+          <div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="project-info">
+                <img src="./assets/images/detox-dynasty.png" class="img-fluid" alt="DetoxDynasty Landing Page">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="project-info">
+                <img src="./assets/images/divya-infocom.png" class="img-fluid" alt="Divya Infocom Service Business Portfolio">
+              </div>
+            </div>
+            <!-- Generate more slides here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feature Section -->
+  <section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-6 col-12">
+          <h2 class="mb-4">Experience</h2>
+
+          <div class="timeline">
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>12/2023</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>Frontend Developer</span><small>Innovius Software</small></h3>
+                <h6 class="timeline-type">Internship &bull; <span>Dec 2023 - Mar 2024</span></h6>
+                <p>
+                  <ul class="experience-emoji">
+                    <li class="mb-2">Designed eye-catchy websites using pure HTML5 and CSS3 along with taking responsiveness into consideration to provide cross-platform compatibility.</li>
+                    <li class="mb-2">Used Modern CSS Frameworks such as Bootstrap to boost the site's performance, simplify the styling, and write clean code.</li>
+                    <li class="mb-2">Added logic to make the elements dynamic and functional using Vanilla JavaScript and Document Object Model. Used libraries such as jQuery to make the scripts fast and efficient.</li>
+                    <li class="mb-2">Created Single Page Web Applications using React.js as Modern JavaScript Library to reduce page load, create user interfaces faster, and reduce network requests to the server using Server-Side Rendering.</li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+            <!-- Generate more positions here -->
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <h2 class="mb-4 mobile-mt-2">Education</h2>
+
+          <div class="timeline">
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>2021</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>B. Tech in CSE</span><small>Silver Oak University</small></h3>
+                <p>Pursuing Bachelor of Technology in Computer Science and Engineering from Silver Oak University.</p>
+                <ul class="graduation-emoji">
+                  <li>Expected Graduation: <span>2025</span></li>
+                  <li>Current CGPA: <span>8.48</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>2024</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>CS50x</span><small>Harvard Online</small></h3>
+                <p>Will be updated soon.</p>
+              </div>
+            </div>
+
+            <div class="timeline-wrapper">
+              <div class="timeline-yr">
+                <span>2024</span>
+              </div>
+              <div class="timeline-info">
+                <h3><span>Full-Stack Development</span><small>IBM</small></h3>
+                <p>Will be updated soon.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact py-5" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mr-lg-5 col-12">
+          <div class="google-map w-100">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.74842920963!2d72.41492881144384!3d23.020474101422135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1716219154067!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+
+          <div class="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
+            <div class="contact-info-item">
+              <h3 class="mb-3 text-white">Say hello</h3>
+              <p class="footer-text mb-0">+91 6354304482</p>
+              <p><a href="mailto:hello@company.co">mohammedanafm@gmail.com</a></p>
+            </div>
+
+            <ul class="social-links">
+              <li><a href="https://www.linkedin.com/in/mohammed-anaf-master" class="fab fa-linkedin" data-toggle="tooltip" data-placement="left" title="LinkedIn"></a>
+              </li>
+              <li><a href="https://github.com/mohammedanafmaster" class="fab fa-github" data-toggle="tooltip" data-placement="left"
+                  title="GitHub"></a></li>
+              <li><a href="https://discordapp.com/users/1191420488254238751" class="fab fa-discord" data-toggle="tooltip" data-placement="left" title="Discord"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-12">
+          <div class="contact-form">
+            <h2 class="mb-4">Interested to work together? Let's talk</h2>
+
+            <form action="" method="get">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <input type="text" class="form-control" name="name" placeholder="Your Name" required id="name">
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <input type="email" class="form-control" name="email" placeholder="Email" required id="email" inputmode="email">
+                </div>
+
+                <div class="col-12">
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="ml-lg-auto col-lg-5 col-12">
+                  <input type="submit" class="form-control submit-btn" value="Send Message">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer py-3">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-12 col-12">
+          <p class="copyright-text text-center">Copyright &copy; 2024 Mohammed Anaf. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
   </footer>
 
-  <!-- Link to Font Awesome -->
-  <script src="https://kit.fontawesome.com/43af46c238.js" crossorigin="anonymous"></script>
-
-  <!-- Link to Box Icons -->
-  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-
-  <!-- Link to the main javascript file -->
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/Headroom.js"></script>
+  <script src="./assets/js/jQuery.headroom.js"></script>
+  <script src="./assets/js/owl.carousel.min.js"></script>
+  <script src="./assets/js/smoothscroll.js"></script>
   <script src="./assets/js/script.js"></script>
 
   <!-- Link to the service worker javascript -->
   <script>
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('./assets/js/service-worker.js')
-        .then((registration) => {
-          console.log('Service worker registered with scope', registration.scope);
-        })
-        .catch((error) => {
-          console.log('Service worker registration failed', error);
-        });
+        navigator.serviceWorker.register('./assets/js/service-worker.js')
+            .then((registration) => {
+                console.log('Service worker registered with scope', registration.scope);
+            })
+            .catch((error) => {
+                console.log('Service worker registration failed', error);
+            });
     }
-  </script>
+</script>
 </body>
 
 </html>
