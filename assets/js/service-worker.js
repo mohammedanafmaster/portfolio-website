@@ -6,6 +6,10 @@ self.addEventListener('install', (event) => {
           '/resume.pdf',
           '/index.html',
           '/assets/css/style.css',
+          '/assets/css/bootstrap.min.css',
+          '/assets/css/owl.carousel.min.css',
+          '/assets/css/owl.theme.default.min.css',
+          '/assets/css/unicons.css',
           '/assets/images/favicon/android-chrome-192x192.png',
           '/assets/images/favicon/android-chrome-512x512.png',
           '/assets/images/favicon/apple-touch-icon.png',
@@ -15,6 +19,8 @@ self.addEventListener('install', (event) => {
           '/assets/images/favicon/site.webmanifest',
           '/assets/images/favicon/favicon.png',
           '/assets/images/home.svg',
+          '/assets/images/detox-dynasty.png',
+          '/assets/images/divya-infocom.png',
           '/assets/js/script.js',
           '/assets/js/service-worker.js',
         ]);
@@ -29,4 +35,3 @@ self.addEventListener('install', (event) => {
       })
     );
   });
-  
